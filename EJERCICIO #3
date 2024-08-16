@@ -1,0 +1,54 @@
+//3. Programa de Ganancias y Pérdidas en un Negocio de Venta de Autos
+//El mes pasado, un concesionario de autos vendió un automóvil usado. Aquí están los detalles:
+//• El precio de compra del automóvil fue de $15,000.
+//• Se realizaron reparaciones que costaron $2,000.
+//• El concesionario vendió el automóvil por $18,500.
+//• Se pagó una comisión del 5% sobre el precio de venta al vendedor.
+//Diseña un programa que muestre la siguiente información:
+//• El costo total invertido en el automóvil.
+//• El monto de la comisión pagada al vendedor.
+//• El precio final de venta.
+//• La ganancia o pérdida después de la venta, considerando todos los costos y la comisión.
+
+//ALGORITMO: para calcular las ganancias y Pérdidas en un Negocio de Venta de Autos
+
+//Algoritmo para calcular las ganancias o pérdidas en la venta de un automóvil:
+//1- Iniciar.
+//2- Definir el precio de compra del automóvil, costo de las reparaciones, el precio de venta del automóvil
+//3- Calcular el costo total que invirtió la empresa sumando el precio de compra y el costo de las reparaciones
+//4- Calcular la comisión pagada al vendedor, esta es del 5% y se calcula como: precio de venta * 0.05
+//5-Calcular la ganancia o pérdida así: (precio de venta) - (costo total + la comisión)
+//6- Mostrar el costo total invertido, la comisión pagada, el precio de venta, y la ganancia o pérdida.
+//7- Finalizar.
+
+
+//PSEUDOCODIGO
+program perdida_ganancia
+start
+//programa para calcular las ganancias o pérdidas en la venta de un automóvil
+
+//DECLARAR LAS VARIABLES
+Declare float precio_compra 
+Declare float reparaciones
+declare float precio_venta 
+declare float comision
+declare float costo_total
+declare ganancia_pérdida 
+
+//asignacion de datos
+set precio_compra = 15000
+set reparaciones = 2000
+set precio_venta = 18500
+
+//CALCULOS
+set costo_total = precio_compra + reparaciones
+set comision = presio_venta * 0.05
+set ganancia_pérdida = (precio_venta) - (costo_total + comision)
+
+//MOSTRAR RESULTADOS
+Display "El costo total invertido en el automóvil: $", costo_total
+Display "la comisión pagada al vendedor es: $", comision
+Display "el precio final de la venta es: $", precio_venta
+Display "La ganancia o pérdida después de la venta es: $", ganancia_pérdida
+
+end
